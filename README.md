@@ -2,6 +2,11 @@
 
 A modern, responsive coding platform navigation page built with HTML, CSS, and JavaScript. Designed to showcase coding challenges, track submissions, and provide a professional user experience.
 
+## 🌐 Live Demo
+**🚀 [View Live Demo](https://Adarshaachary.github.io/SCT_WD_1/)** ← Click here to see the project in action!
+
+---
+
 ## 🎯 Project Overview
 
 **Code-Tester** is a beginner-friendly platform that demonstrates modern frontend development practices. It features a navigation system for managing coding tasks, tracking successful submissions, monitoring failed attempts, and providing information about the platform.
@@ -122,12 +127,12 @@ A modern, responsive coding platform navigation page built with HTML, CSS, and J
 - Striped rows with gradient header
 - Hover effect: `background-color: rgba(99, 102, 241, 0.1)`
 - Badges for status indicators
-- Responsive table wrapper
+- Responsive table wrapper for mobile
 - Icon headers for better UX
 
 #### About Section
 - Card-based layout for mission/vision/values
-- Icon circles with gradients (`width: 70px; height: 70px`)
+- Gradient icons in circles (`width: 70px; height: 70px`)
 - Social media links with hover effects (`scale(1.1)`)
 - Footer section with copyright
 
@@ -281,10 +286,10 @@ navLinks.forEach(link => {
 
 ```
 SCT_WD_1/
-├── index.html          # Main HTML structure (23KB)
-├── web.css             # Modern styling with animations (15KB)
-├── web.js              # JavaScript functionality (4KB)
-└── README.md           # Project documentation (this file)
+├── web.html          # Main HTML structure (23KB)
+├── web.css           # Modern styling with animations (15KB)
+├── web.js            # JavaScript functionality (4KB)
+└── README.md         # Project documentation (this file)
 ```
 
 ### File Descriptions
@@ -309,43 +314,6 @@ SCT_WD_1/
 - localStorage integration
 - Intersection Observer setup
 - Event listener attachment
-
----
-
-## 🎯 Key Features Breakdown
-
-### Home Section (Hero)
-- Gradient background (indigo to pink)
-- Large heading: 3.5rem on desktop, responsive down to 1.8rem
-- Call-to-action button with hover lift effect
-- Decorative circular element with `::before` pseudo-element
-- 3-stage animation sequence
-
-### Saved Codes Section
-- 4 example code cards with different statuses
-- Progress bars showing completion percentage
-- Status badges (Completed, In Process, Not Attempted)
-- Card grid responsive layout
-- Hover effects with shadow and border color change
-
-### Successful Submissions Section
-- Professional data table with 10 rows
-- Striped rows with hover highlighting
-- Icon headers for visual clarity
-- Responsive table wrapper for mobile
-- Badge indicators for task types
-
-### Failed Submissions Section
-- Similar table structure with failure details
-- Color-coded status badges
-- 10 example submissions
-- Full responsive design
-
-### About Section
-- Three mission/vision/values cards
-- Gradient icons in circles
-- Social media links with icon hover effects
-- Footer with copyright info
 
 ---
 
@@ -384,29 +352,32 @@ This project demonstrates:
 
 ## 🔧 How to Use
 
-### 1. Clone the Repository
+### 1. View Live Demo
+**[Click here to see the live demo](https://Adarshaachary.github.io/SCT_WD_1/)** 🚀
+
+### 2. Clone the Repository
 ```bash
 git clone https://github.com/Adarshaachary/SCT_WD_1.git
 cd SCT_WD_1
 ```
 
-### 2. Open in Browser
+### 3. Open Locally
 - Simply open `web.html` in your preferred web browser
 - No build process required
 - All dependencies loaded from CDN
 
-### 3. Toggle Dark Mode
+### 4. Toggle Dark Mode
 - Click the moon/sun icon in the top-right navbar
 - Theme preference is saved automatically
 - Persists across browser sessions
 
-### 4. Navigate Sections
+### 5. Navigate Sections
 - Use navbar links to jump to different sections
 - All navigation is smooth and animated
 - Mobile menu collapses automatically after link click
 
-### 5. Customize Colors
-- Edit CSS variables in `:root` selector
+### 6. Customize Colors
+- Edit CSS variables in `:root` selector in `web.css`
 - All colors automatically update throughout the site
 - No additional changes needed
 
@@ -539,19 +510,6 @@ gap: 1rem;
 
 ---
 
-## 🐛 Known Issues & Fixes
-
-### Issue: Dark mode not persisting
-**Fix**: Browser allows localStorage access (check privacy settings)
-
-### Issue: Animations not smooth
-**Fix**: Use Chrome/Firefox for best animation performance
-
-### Issue: Mobile menu not closing
-**Fix**: Ensure Bootstrap JavaScript is loaded correctly
-
----
-
 ## 🤝 Contributing
 
 Contributions are welcome! Please:
@@ -566,16 +524,6 @@ Contributions are welcome! Please:
 ## 📄 License
 
 This project is open source and available under the MIT License.
-
-```
-MIT License
-
-Copyright (c) 2026 Adarsha Acharya
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction...
-```
 
 ---
 
@@ -619,6 +567,7 @@ For questions, issues, or suggestions:
 - ✨ Intersection Observer API
 - ✨ Mobile-first responsive design
 - ✨ Comprehensive documentation
+- ✨ GitHub Pages live demo
 
 ### Version 1.0 - Initial Release
 - Basic HTML structure
@@ -631,3 +580,29 @@ For questions, issues, or suggestions:
 **Version**: 2.0 (Modern Redesign)  
 **Status**: ✅ Production Ready  
 **Maintenance**: Active
+
+---
+
+## 🌐 How to Enable GitHub Pages (Setup Guide)
+
+### For this project, follow these steps:
+
+1. **Go to Repository Settings**
+   - Navigate to: `https://github.com/Adarshaachary/SCT_WD_1/settings`
+
+2. **Select "Pages" from the left menu**
+   - Look for "Pages" in the settings sidebar
+
+3. **Choose Source Branch**
+   - Select `main` branch
+   - Select `/ (root)` folder
+   - Click "Save"
+
+4. **Wait for Deployment**
+   - GitHub will build and deploy your site
+   - This usually takes 1-2 minutes
+
+5. **Access Your Live Site**
+   - Your site will be available at: `https://Adarshaachary.github.io/SCT_WD_1/`
+
+✅ **Done!** Your project is now live on GitHub Pages!
