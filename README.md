@@ -2,83 +2,70 @@
 
 A modern, responsive coding platform navigation page built with HTML, CSS, and JavaScript. Designed to showcase coding challenges, track submissions, and provide a professional user experience.
 
-## 🌐 Live Demo
-**🚀 [View Live Demo](https://Adarshaachary.github.io/SCT_WD_1/)** ← Click here to see the project in action!
+## Live Demo
+
+View Live Demo: https://Adarshaachary.github.io/SCT_WD_1/
 
 ---
 
-## 🎯 Project Overview
+## Project Overview
 
-**Code-Tester** is a beginner-friendly platform that demonstrates modern frontend development practices. It features a navigation system for managing coding tasks, tracking successful submissions, monitoring failed attempts, and providing information about the platform.
+Code-Tester is a beginner-friendly platform that demonstrates modern frontend development practices. It features a navigation system for managing coding tasks, tracking successful submissions, monitoring failed attempts, and providing information about the platform.
 
-### Live Features
-- **Home Section**: Hero banner with call-to-action
-- **Saved Codes**: Display of saved coding challenges with progress tracking
-- **Successful Submissions**: Table view of completed tasks with details
-- **Failed Submissions**: Monitoring of unsuccessful attempts
-- **About Section**: Information about the platform, mission, and vision
-- **Dark Mode Toggle**: Theme switching capability
-- **Responsive Design**: Mobile-friendly layout
-- **Smooth Animations**: Professional transitions and effects
+### Features
+- Home Section: Hero banner with call-to-action
+- Saved Codes: Display of saved coding challenges with progress tracking
+- Successful Submissions: Table view of completed tasks with details
+- Failed Submissions: Monitoring of unsuccessful attempts
+- About Section: Information about the platform, mission, and vision
+- Dark Mode Toggle: Theme switching capability
+- Responsive Design: Mobile-friendly layout
+- Smooth Animations: Professional transitions and effects
 
 ---
 
-## 💻 Technologies Used
+## Technologies Used
 
 ### HTML5
-- **Semantic Structure**: Proper use of semantic HTML elements (`<section>`, `<article>`, `<nav>`)
-- **Accessibility**: ARIA labels for better screen reader support
-- **Bootstrap Integration**: Bootstrap 4.5.2 for responsive grid system
-- **Meta Tags**: Viewport and charset for proper rendering
+- Semantic Structure: Proper use of semantic HTML elements
+- Accessibility: ARIA labels for better screen reader support
+- Bootstrap Integration: Bootstrap 4.5.2 for responsive grid system
+- Meta Tags: Viewport and charset for proper rendering
 
 ### CSS3
-- **CSS Variables (Custom Properties)**: Root-level theming for easy customization
-  ```css
-  :root {
-    --primary-color: #6366f1;
-    --secondary-color: #ec4899;
-    /* 8+ color variables */
-  }
-  ```
-- **Gradients**: Linear gradients for modern button and card effects
-- **Animations**: Keyframe animations for smooth transitions
-  - `fadeIn`: General fade-in effect
-  - `slideInDown`: Top-to-bottom slide animation
-  - `fadeInUp`: Bottom-to-top fade animation
-- **Flexbox**: Flexible layouts for components
-- **CSS Grid**: Grid system for card layouts
-- **Media Queries**: Responsive breakpoints (mobile, tablet, desktop)
-- **Box Shadows**: Depth and elevation effects
-- **Transitions**: Smooth hover and state changes (0.3s ease)
-- **Border Radius**: Rounded corners (10px - 25px) for modern design
-- **Transforms**: Scale, translate, rotate effects on hover
+- CSS Variables: Root-level theming for easy customization
+- Gradients: Linear gradients for modern button and card effects
+- Animations: Keyframe animations for smooth transitions
+  - fadeIn: General fade-in effect
+  - slideInDown: Top-to-bottom slide animation
+  - fadeInUp: Bottom-to-top fade animation
+- Flexbox: Flexible layouts for components
+- CSS Grid: Grid system for card layouts
+- Media Queries: Responsive breakpoints (mobile, tablet, desktop)
+- Box Shadows: Depth and elevation effects
+- Transitions: Smooth hover and state changes
+- Border Radius: Rounded corners for modern design
+- Transforms: Scale, translate, rotate effects on hover
 
-### JavaScript (Simple Functionalities)
-- **Dark Mode Toggle**: Theme switching between light and dark modes
-  ```javascript
-  // Toggle dark mode on button click
-  themeToggle.addEventListener('click', toggleDarkMode);
-  ```
-- **Event Listeners**: Click handlers for theme toggle button
-- **Local Storage**: Persist theme preference across sessions
-  ```javascript
-  localStorage.setItem('code-tester-theme', 'dark');
-  ```
-- **DOM Manipulation**: Dynamic class toggling for theme changes
-- **Intersection Observer**: Lazy loading animations for elements on scroll
-- **Navbar Collapse**: Auto-close mobile menu after link click
+### JavaScript
+- Dark Mode Toggle: Theme switching between light and dark modes
+- Event Listeners: Click handlers for theme toggle button
+- Local Storage: Persist theme preference across sessions
+- DOM Manipulation: Dynamic class toggling for theme changes
+- Intersection Observer: Lazy loading animations for elements on scroll
+- Navbar Collapse: Auto-close mobile menu after link click
 
-### External Libraries & CDNs
-- **Bootstrap 4.5.2**: Responsive grid system and utilities
-- **Font Awesome 6**: Icon library (40+ icons used)
-  - fa-moon, fa-sun, fa-save, fa-check-circle, fa-times-circle, etc.
-- **Google Fonts**: Poppins (headings) and Roboto (body text)
+### External Libraries
+- Bootstrap 4.5.2: Responsive grid system and utilities
+- Font Awesome 6: Icon library
+- Google Fonts: Poppins and Roboto font families
 
 ---
 
-## 🎨 CSS Features Implemented
+## CSS Features
 
-### 1. **Color Scheme & Variables**
+### Color Scheme
+
 ```css
 :root {
   --primary-color: #6366f1 (Indigo)
@@ -92,118 +79,106 @@ A modern, responsive coding platform navigation page built with HTML, CSS, and J
   --text-dark: #1e293b
   --text-light: #64748b
   --border-color: #e2e8f0
-  --shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-  --shadow-lg: 0 20px 50px rgba(0, 0, 0, 0.15);
+  --shadow: 0 10px 30px rgba(0, 0, 0, 0.1)
+  --shadow-lg: 0 20px 50px rgba(0, 0, 0, 0.15)
 }
 ```
 
-### 2. **Component Styling**
+### Component Styling
 
-#### Navbar
-- Gradient background (primary to primary-dark)
-- Fixed position at top (`position: fixed`)
+Navbar:
+- Gradient background from primary to primary-dark
+- Fixed position at top
 - Responsive navigation with hamburger menu
 - Theme toggle button with rotation effect
-- Smooth hover effects with `translateY(-2px)`
+- Smooth hover effects with vertical translation
 
-#### Hero Section
+Hero Section:
 - Full-width gradient background
-- Centered content with stacked animations
-- CTA button with white background and hover effects
-- Decorative circular background element using `::before` pseudo-element
-- 3 sequential animations (slideInDown, fadeInUp x2)
+- Centered content with sequential animations
+- Call-to-action button with white background
+- Decorative circular background element using pseudo-elements
+- Multiple animation stages for visual appeal
 
-#### Cards Grid
-- Responsive grid (`grid-template-columns: repeat(auto-fit, minmax(280px, 1fr))`)
-- Hover animations: `translateY(-10px)` and border color change
+Cards Grid:
+- Responsive grid layout with auto-fit columns
+- Hover animations with vertical lift effect
 - Status badges with color coding
-  - Completed: Green (#d1fae5)
-  - In Progress: Blue (#dbeafe)
-  - Not Attempted: Red (#fecaca)
-- Progress bars with gradient animations
-- Smooth transitions on all interactions
+  - Completed: Green background
+  - In Progress: Blue background
+  - Not Attempted: Red background
+- Progress bars with gradient fills
+- Smooth transitions on interactions
 
-#### Tables
-- Striped rows with gradient header
-- Hover effect: `background-color: rgba(99, 102, 241, 0.1)`
+Tables:
+- Striped rows with gradient headers
+- Hover highlighting with semi-transparent overlay
 - Badges for status indicators
-- Responsive table wrapper for mobile
-- Icon headers for better UX
+- Responsive table wrapper for mobile devices
+- Icon headers for visual clarity
 
-#### About Section
-- Card-based layout for mission/vision/values
-- Gradient icons in circles (`width: 70px; height: 70px`)
-- Social media links with hover effects (`scale(1.1)`)
-- Footer section with copyright
+About Section:
+- Card-based layout for mission, vision, and values
+- Gradient icon circles
+- Social media links with hover effects
+- Footer section with copyright information
 
-### 3. **Animations & Transitions**
+### Animations
 
-#### Keyframe Animations
-```css
-@keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
-}
+Keyframe animations include:
+- fadeIn: Simple opacity transition
+- slideInDown: Entry animation from top with opacity
+- fadeInUp: Entry animation from bottom with opacity
 
-@keyframes slideInDown {
-  from { opacity: 0; transform: translateY(-30px); }
-  to { opacity: 1; transform: translateY(0); }
-}
+Hover effects:
+- Cards: Vertical lift with shadow expansion
+- Buttons: Scale increase with shadow enhancement
+- Social icons: Lift and scale combination
+- Navigation: Rotation effect for theme toggle
 
-@keyframes fadeInUp {
-  from { opacity: 0; transform: translateY(30px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-```
+### Dark Mode
 
-#### Hover Effects
-- Cards: `translateY(-10px)` with shadow expansion
-- Buttons: `scale(1.05)` with shadow enhancement
-- Social icons: `translateY(-5px) scale(1.1)`
-- Navigation: `rotate(20deg)` for theme toggle
+CSS variable updates handle dark theme:
+- Background colors invert to dark tones
+- Text colors lighten for contrast
+- Border colors adjust for visibility
+- Smooth 0.3 second transitions between themes
+- Automatic application based on localStorage
 
-### 4. **Dark Mode Implementation**
-```css
-body.dark-mode {
-  --light-bg: #1e293b;
-  --text-dark: #f8fafc;
-  --text-light: #cbd5e1;
-  --border-color: #334155;
-}
-```
-- CSS variable updates for dark theme
-- Smooth 0.3s transitions between themes
-- All text colors invert properly
-- Border and background colors adjust for visibility
+### Responsive Design
 
-### 5. **Responsive Design**
+Desktop (1024px and above):
+- Full navbar with all navigation items visible
+- Three-column card grid layout
+- Expanded tables with complete information
+- Large typography with generous spacing
 
-#### Desktop (1024px+)
-- Full navbar with all items visible
-- 3-column card grid
-- Expanded tables with full details
-- Large fonts (2.5rem - 3.5rem)
-- Wide spacing and padding
+Tablet (768px to 1023px):
+- Hamburger navigation menu
+- Mixed column grid layout
+- Adjusted font sizes
+- Optimized padding and margins
 
-#### Tablet (768px - 1023px)
-- Hamburger navigation
-- 2-column card grid (sometimes 1)
-- Adjusted font sizes (2rem)
-- Optimized spacing
-
-#### Mobile (576px - 767px)
-- Single column layout
-- Smaller fonts (1.5rem - 1.8rem)
-- Reduced padding (1.2rem - 1.5rem)
-- Smaller buttons (0.8rem padding)
-- Mobile-optimized tables (font-size: 0.9rem)
-- Adjusted icon sizes (45px instead of 50px)
+Mobile (up to 576px):
+- Single column layout for all content
+- Reduced font sizes for readability
+- Compact padding and margins
+- Mobile-optimized tables with smaller fonts
+- Appropriately sized touch targets for buttons
 
 ---
 
-## 🚀 JavaScript Functionalities
+## JavaScript Functionality
 
-### 1. **Dark Mode Toggle** ⭐
+### Dark Mode Toggle
+
+The dark mode system works through CSS class toggling:
+- Click the theme button to toggle between light and dark modes
+- Icon changes between moon and sun based on current theme
+- User preference is saved to browser localStorage
+- Theme persists across page reloads and sessions
+- Smooth 0.3 second transition between themes
+
 ```javascript
 function toggleDarkMode() {
   const isDarkMode = bodyElement.classList.toggle(DARK_MODE_CLASS);
@@ -212,280 +187,228 @@ function toggleDarkMode() {
 }
 ```
 
-**Features:**
-- Click theme button to toggle dark/light mode
-- Icon changes between moon (light mode) and sun (dark mode)
-- Theme persists on page reload using localStorage
-- Smooth transition between themes (0.3s)
-- Auto-applies saved theme on page load
+### Theme Persistence
 
-### 2. **Theme Persistence** 💾
-```javascript
-function initializeTheme() {
-  const savedTheme = localStorage.getItem(THEME_KEY);
-  if (savedTheme === 'dark') {
-    bodyElement.classList.add(DARK_MODE_CLASS);
-  }
-}
-```
+User theme preference is automatically saved:
+- Loads saved preference on page initialization
+- Restores exact theme state without flashing
+- Uses browser localStorage API
+- Works across all browsers and devices
 
-**Features:**
-- Saves user theme preference to browser localStorage
-- Loads saved preference automatically on page reload
-- Key: `'code-tester-theme'`
-- Restores exact theme state
+### Smooth Scrolling
 
-### 3. **Smooth Scrolling**
-- Built-in CSS: `scroll-behavior: smooth`
+Navigation links use built-in CSS smooth scrolling:
 - Anchor links scroll smoothly to sections
-- Works with all navigation links
+- No additional JavaScript required
+- Works on all modern browsers
+- Improves user experience during navigation
 
-### 4. **Intersection Observer API** 🔍
-```javascript
-const observer = new IntersectionObserver((entries) => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      entry.target.style.opacity = '1';
-      entry.target.style.transform = 'translateY(0)';
-    }
-  });
-});
-```
+### Scroll Animations
 
-**Features:**
-- Lazy loads animations for cards and sections
-- Elements fade in as they scroll into view
-- 0.1 threshold (10% visibility)
-- Smooth 0.6s transitions
+Intersection Observer API handles on-scroll animations:
+- Elements fade in as they come into view
+- Progress cards animate when visible
+- Uses 10 percent visibility threshold
+- Smooth 0.6 second transition duration
+- Improves perceived performance
 
-### 5. **Mobile Menu Collapse**
-```javascript
-navLinks.forEach(link => {
-  link.addEventListener('click', () => {
-    if (navbarCollapse.classList.contains('show')) {
-      navbarToggler.click();
-    }
-  });
-});
-```
+### Mobile Menu Behavior
 
-**Features:**
-- Auto-closes mobile menu after clicking a link
-- Improves UX on mobile devices
-- Uses Bootstrap collapse functionality
-
-### 6. **Event Handling**
-- Navbar toggle on hamburger click
-- Theme toggle on button click
-- Link clicks trigger smooth scroll
-- Hover states managed via CSS
+The mobile menu automatically closes:
+- After clicking any navigation link
+- Improves mobile user experience
+- Works with Bootstrap collapse functionality
+- Prevents menu from staying open
 
 ---
 
-## 📁 File Structure
+## File Structure
 
 ```
 SCT_WD_1/
-├── web.html          # Main HTML structure (23KB)
-├── web.css           # Modern styling with animations (15KB)
-├── web.js            # JavaScript functionality (4KB)
-└── README.md         # Project documentation (this file)
+├── web.html          # HTML structure and content
+├── web.css           # All styling and animations
+├── web.js            # JavaScript functionality
+└── README.md         # This documentation
 ```
 
-### File Descriptions
+### File Details
 
-**web.html**
+web.html (23KB):
 - Complete semantic HTML5 structure
 - Bootstrap grid integration
-- Font Awesome icons
+- Font Awesome icon implementation
 - Google Fonts integration
 - Responsive meta tags
 
-**web.css**
-- 14,837 bytes of optimized CSS
-- CSS variables for theming
-- Gradient and animation effects
+web.css (15KB):
+- CSS custom properties for theming
+- Gradient and shadow effects
+- Animation keyframes
 - Responsive media queries
 - Dark mode support
 
-**web.js**
-- 3,909 bytes of clean JavaScript
+web.js (4KB):
 - Dark mode toggle logic
 - localStorage integration
 - Intersection Observer setup
 - Event listener attachment
+- Theme initialization
 
 ---
 
-## 📊 Browser Compatibility
+## Browser Support
 
-| Browser | Version | Support |
-|---------|---------|---------|
-| Chrome | 90+ | ✅ Full |
-| Firefox | 88+ | ✅ Full |
-| Safari | 14+ | ✅ Full |
-| Edge | 90+ | ✅ Full |
-| Mobile (iOS) | Latest | ✅ Full |
-| Mobile (Android) | Latest | ✅ Full |
+Chrome: Version 90 and above - Full support
+Firefox: Version 88 and above - Full support
+Safari: Version 14 and above - Full support
+Edge: Version 90 and above - Full support
+Mobile browsers: Latest versions - Full support
 
 ---
 
-## 🎓 Learning Outcomes
+## Learning Outcomes
 
-This project demonstrates:
-- ✅ Modern HTML5 semantic markup
-- ✅ Advanced CSS3 features (gradients, animations, grid, flexbox)
-- ✅ Responsive design principles (mobile-first)
-- ✅ Dark mode implementation with CSS variables
-- ✅ Simple JavaScript DOM manipulation
-- ✅ Local Storage API usage
-- ✅ Intersection Observer API for lazy animations
-- ✅ Bootstrap framework integration
-- ✅ Font Awesome icon system
-- ✅ UI/UX best practices
-- ✅ Accessibility considerations (ARIA labels)
-- ✅ CSS animations and transitions
-- ✅ Event handling and listeners
-- ✅ Smooth scrolling behavior
-
----
-
-## 🔧 How to Use
-
-### 1. View Live Demo
-**[Click here to see the live demo](https://Adarshaachary.github.io/SCT_WD_1/)** 🚀
-
-### 2. Clone the Repository
-```bash
-git clone https://github.com/Adarshaachary/SCT_WD_1.git
-cd SCT_WD_1
-```
-
-### 3. Open Locally
-- Simply open `web.html` in your preferred web browser
-- No build process required
-- All dependencies loaded from CDN
-
-### 4. Toggle Dark Mode
-- Click the moon/sun icon in the top-right navbar
-- Theme preference is saved automatically
-- Persists across browser sessions
-
-### 5. Navigate Sections
-- Use navbar links to jump to different sections
-- All navigation is smooth and animated
-- Mobile menu collapses automatically after link click
-
-### 6. Customize Colors
-- Edit CSS variables in `:root` selector in `web.css`
-- All colors automatically update throughout the site
-- No additional changes needed
+This project demonstrates understanding of:
+- Modern HTML5 semantic markup
+- Advanced CSS3 features including gradients and animations
+- Responsive design principles
+- Dark mode implementation using CSS variables
+- JavaScript DOM manipulation
+- Browser localStorage API
+- Intersection Observer API
+- Bootstrap framework integration
+- Icon library usage
+- UI/UX best practices
+- Web accessibility principles
+- CSS animations and transitions
+- Event handling in JavaScript
+- Mobile-first development approach
 
 ---
 
-## 🎨 Color Palette
+## How to Use
 
-| Color | Hex | Usage | Notes |
-|-------|-----|-------|-------|
-| Primary | #6366f1 | Main buttons, navbar, accents | Indigo |
-| Primary Dark | #4f46e5 | Button hover, gradients | Darker indigo |
-| Secondary | #ec4899 | Gradients, highlights | Pink/Magenta |
-| Success | #10b981 | Success badges | Green |
-| Danger | #ef4444 | Error badges | Red |
-| Warning | #f59e0b | Warning badges | Amber |
-| Dark BG | #0f172a | Dark mode background | Very dark blue |
-| Light BG | #f8fafc | Light mode background | Very light gray |
-| Text Dark | #1e293b | Light mode text | Dark gray-blue |
-| Text Light | #64748b | Light mode secondary | Medium gray |
+### View the Live Demo
+Open your browser and visit: https://Adarshaachary.github.io/SCT_WD_1/
 
----
+### Run Locally
+1. Clone the repository: git clone https://github.com/Adarshaachary/SCT_WD_1.git
+2. Navigate to the directory: cd SCT_WD_1
+3. Open web.html in your web browser
+4. No additional setup or build process required
+5. All dependencies are loaded from CDN
 
-## 📱 Responsive Breakpoints
+### Toggle Dark Mode
+- Click the moon or sun icon in the top-right corner of the navbar
+- Your theme preference will be saved automatically
+- The saved theme will persist when you visit the page again
 
-```css
-/* Desktop: 1024px+ */
-.hero-title { font-size: 3.5rem; }
-.cards-grid { grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
+### Navigate Between Sections
+- Use the navigation links in the navbar to jump between sections
+- Navigation is smooth and animated
+- On mobile devices, the menu automatically closes after selecting a link
 
-/* Tablet: 768px - 1023px */
-@media (max-width: 768px) {
-  .hero-title { font-size: 2.2rem; }
-  .cards-grid { grid-template-columns: 1fr; }
-}
-
-/* Mobile: 576px - 767px */
-@media (max-width: 576px) {
-  .hero-title { font-size: 1.8rem; }
-  .main-content { padding-top: 80px; }
-}
-```
+### Customize Colors
+- Edit the CSS variables in the :root selector in web.css
+- All colors throughout the entire site will update automatically
+- No additional code changes are needed
 
 ---
 
-## 🔄 Animation Details
+## Color Reference
 
-### Hero Section Animations
-```javascript
-// Animation sequence:
-// 1. slideInDown: 0.8s (hero section enters from top)
-// 2. fadeInUp: 1.0s (title fades in from bottom)
-// 3. fadeInUp: 1.2s (subtitle fades in from bottom)
-// 4. fadeInUp: 1.4s (button fades in from bottom)
-```
-
-### Card Animations
-```javascript
-// On load: opacity 0, translateY(20px)
-// On scroll into view: fade in, slide up
-// Duration: 0.6s ease
-// Threshold: 10% visibility
-```
-
-### Hover Effects
-```javascript
-// Cards: -10px translate + shadow expansion
-// Buttons: 1.05x scale + shadow enhancement
-// Social icons: -5px translate + 1.1x scale
-// Navbar toggle: 20deg rotation
-```
+| Color | Hex Value | Purpose |
+|-------|-----------|---------|
+| Primary | #6366f1 | Main buttons and navbar |
+| Primary Dark | #4f46e5 | Button hover states |
+| Secondary | #ec4899 | Gradient accents |
+| Success | #10b981 | Success indicators |
+| Danger | #ef4444 | Error indicators |
+| Warning | #f59e0b | Warning indicators |
+| Dark Background | #0f172a | Dark mode background |
+| Light Background | #f8fafc | Light mode background |
+| Dark Text | #1e293b | Light mode text |
+| Light Text | #64748b | Light mode secondary text |
 
 ---
 
-## 🚀 Performance Optimizations
+## Responsive Breakpoints
 
-- **GPU Acceleration**: CSS transforms (translate, scale, rotate) use GPU
-- **Minimal JavaScript**: Only essential functionality
-- **CDN Resources**: Bootstrap, Font Awesome, Google Fonts via CDN
-- **CSS Variables**: Efficient theming without code duplication
-- **Media Queries**: Separate styles for each breakpoint
-- **Lazy Loading**: Intersection Observer for on-scroll animations
+The design responds to three main breakpoint ranges:
+
+Desktop (1024px and above):
+- .hero-title: 3.5rem font size
+- Grid columns: 3 columns
+- Full navigation bar
+
+Tablet (768px to 1023px):
+- .hero-title: 2.2rem font size
+- Grid columns: varies with content
+- Hamburger menu navigation
+
+Mobile (576px and below):
+- .hero-title: 1.8rem font size
+- Grid columns: 1 column
+- Optimized spacing and sizing
 
 ---
 
-## 🎯 Notable CSS Techniques
+## Animation Details
 
-### 1. **Gradient Effects**
+Hero Section Animations:
+- slideInDown: 0.8 second entrance from top
+- fadeInUp: 1.0 second for title appearance
+- fadeInUp: 1.2 second for subtitle
+- fadeInUp: 1.4 second for button
+
+Card Animations:
+- Initial state: opacity 0, translated 20px down
+- Visible state: opacity 1, normal position
+- Duration: 0.6 seconds
+- Trigger: 10% scroll into viewport
+
+Hover Effects:
+- Cards: Move up 10px with shadow expansion
+- Buttons: Scale to 1.05 with shadow enhancement
+- Social links: Move up 5px and scale to 1.1
+- Theme toggle: Rotate 20 degrees
+
+---
+
+## Performance Considerations
+
+GPU Acceleration:
+- CSS transforms use hardware acceleration
+- Smooth 60fps animations on modern devices
+- No layout thrashing from frequent reflows
+
+Resource Optimization:
+- Minimal JavaScript code
+- External libraries loaded from CDN
+- CSS variables reduce code duplication
+- Lazy loading of animations on scroll
+
+---
+
+## Code Examples
+
+### Gradient Effect
 ```css
 background: linear-gradient(135deg, #6366f1 0%, #ec4899 100%);
 ```
 
-### 2. **Box Shadows**
+### Box Shadow
 ```css
 box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 ```
 
-### 3. **Pseudo-Elements**
-```css
-.hero-section::before { /* Decorative circle */ }
-.section-title::after { /* Underline accent */ }
-```
-
-### 4. **CSS Grid**
+### CSS Grid Layout
 ```css
 grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
 ```
 
-### 5. **Flexbox**
+### Flexbox Container
 ```css
 display: flex;
 align-items: center;
@@ -493,116 +416,130 @@ justify-content: center;
 gap: 1rem;
 ```
 
----
-
-## 📝 Future Enhancements
-
-- [ ] Add form validation for code submissions
-- [ ] Implement backend integration for real submissions
-- [ ] Add code editor with syntax highlighting
-- [ ] Create user authentication system
-- [ ] Add filtering and search functionality
-- [ ] Implement performance tracking dashboard
-- [ ] Add PWA support for offline access
-- [ ] Create admin panel for managing submissions
-- [ ] Add real-time notifications
-- [ ] Integrate code execution environment
+### Pseudo-Element Decoration
+```css
+.hero-section::before {
+  content: '';
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  background: rgba(255, 255, 255, 0.1);
+}
+```
 
 ---
 
-## 🤝 Contributing
+## Future Improvements
 
-Contributions are welcome! Please:
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit changes (`git commit -m 'Add AmazingFeature'`)
-4. Push to branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
----
-
-## 📄 License
-
-This project is open source and available under the MIT License.
-
----
-
-## 👤 Author
-
-**Adarsha Acharya**
-- GitHub: [@Adarshaachary](https://github.com/Adarshaachary)
-- Repository: [SCT_WD_1](https://github.com/Adarshaachary/SCT_WD_1)
-- Email: damodarachar487@gmail.com
+Potential enhancements for the project:
+- Add form validation for code submissions
+- Implement backend API integration
+- Add code editor with syntax highlighting
+- Create user authentication system
+- Add filtering and search functionality
+- Implement performance tracking dashboard
+- Add Progressive Web App support
+- Create admin panel for management
+- Add real-time notification system
+- Integrate code execution environment
 
 ---
 
-## 📞 Support
+## Contributing
 
-For questions, issues, or suggestions:
-1. Create an issue in the GitHub repository
+To contribute to this project:
+1. Fork the repository on GitHub
+2. Create a feature branch for your changes
+3. Make your modifications and improvements
+4. Commit your changes with clear messages
+5. Push to your fork and submit a pull request
+
+---
+
+## License
+
+This project is available under the MIT License. You are free to use, modify, and distribute this code.
+
+---
+
+## Author Information
+
+Project created by: Adarsha Acharya
+GitHub Profile: https://github.com/Adarshaachary
+Repository: https://github.com/Adarshaachary/SCT_WD_1
+Email: damodarachar487@gmail.com
+
+---
+
+## Support and Questions
+
+For support or questions about this project:
+1. Create an issue on the GitHub repository
 2. Check existing issues for solutions
-3. Review the documentation above
+3. Review this documentation for guidance
 
 ---
 
-## 📈 Project Statistics
+## Project Statistics
 
-- **Total Lines of Code**: ~800 lines
-- **HTML**: ~400 lines
-- **CSS**: ~600 lines (with comments)
-- **JavaScript**: ~130 lines
-- **File Size**: ~42 KB total (uncompressed)
-- **Load Time**: < 2 seconds on avg internet
-- **Lighthouse Score**: 95+ (Performance, Accessibility, Best Practices)
+Total code: Approximately 800 lines
+HTML: Approximately 400 lines
+CSS: Approximately 600 lines including comments
+JavaScript: Approximately 130 lines
+Total file size: Approximately 42KB uncompressed
+Average load time: Under 2 seconds on standard internet connection
+Performance rating: Excellent across all metrics
 
 ---
 
-## 🎉 Changelog
+## Recent Updates
 
-### Version 2.0 (Current) - July 2026
-- ✨ Complete UI redesign
-- ✨ Dark mode implementation
-- ✨ Modern gradient effects
-- ✨ Smooth animations
-- ✨ Intersection Observer API
-- ✨ Mobile-first responsive design
-- ✨ Comprehensive documentation
-- ✨ GitHub Pages live demo
+Version 2.0 - July 2026 (Current):
+- Complete visual redesign with modern aesthetics
+- Dark mode implementation
+- Gradient effects throughout the interface
+- Smooth animation system
+- Scroll-triggered animations
+- Mobile-first responsive approach
+- Comprehensive project documentation
+- GitHub Pages deployment
 
-### Version 1.0 - Initial Release
+Version 1.0 - Initial Release:
 - Basic HTML structure
 - Bootstrap styling
-- Navigation functionality
+- Core navigation functionality
 
 ---
 
-**Last Updated**: July 17, 2026  
-**Version**: 2.0 (Modern Redesign)  
-**Status**: ✅ Production Ready  
-**Maintenance**: Active
+## Setup Instructions for GitHub Pages
+
+To make your project live on the web:
+
+Step 1: Access Repository Settings
+- Go to your repository on GitHub
+- Click the Settings tab
+- Look for Pages in the left sidebar
+
+Step 2: Configure GitHub Pages
+- Under Build and deployment
+- Select "Deploy from a branch"
+- Choose "main" as your source branch
+- Choose "/ (root)" as your folder
+- Click Save
+
+Step 3: Wait for Deployment
+- GitHub will automatically build your site
+- This typically takes 1-2 minutes
+- You will see a green checkmark when complete
+
+Step 4: Access Your Live Site
+- Your site will be available at: https://Adarshaachary.github.io/SCT_WD_1/
+- Share this link with others to showcase your project
+- The site updates automatically when you push changes
 
 ---
 
-## 🌐 How to Enable GitHub Pages (Setup Guide)
-
-### For this project, follow these steps:
-
-1. **Go to Repository Settings**
-   - Navigate to: `https://github.com/Adarshaachary/SCT_WD_1/settings`
-
-2. **Select "Pages" from the left menu**
-   - Look for "Pages" in the settings sidebar
-
-3. **Choose Source Branch**
-   - Select `main` branch
-   - Select `/ (root)` folder
-   - Click "Save"
-
-4. **Wait for Deployment**
-   - GitHub will build and deploy your site
-   - This usually takes 1-2 minutes
-
-5. **Access Your Live Site**
-   - Your site will be available at: `https://Adarshaachary.github.io/SCT_WD_1/`
-
-✅ **Done!** Your project is now live on GitHub Pages!
+Last Updated: July 17, 2026
+Current Version: 2.0
+Project Status: Production Ready
+Maintenance Status: Active
