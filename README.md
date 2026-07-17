@@ -4,13 +4,13 @@ A modern, responsive coding platform navigation page built with HTML, CSS, and J
 
 ## Live Demo
 
-View Live Demo: https://adarshaachary.github.io/Code-Tester/
+View Live Demo: https://adarshaachary.github.io/Code-Tester/web.html
 
 ---
 
 ## Project Overview
 
-Code-Tester is a beginner-friendly platform that demonstrates modern frontend development practices. It features a navigation system for managing coding tasks, tracking successful submissions, monitoring failed attempts, and presenting project information in an elegant interface.
+Code-Tester is a beginner-friendly platform that demonstrates modern frontend development practices. It features a navigation system for managing coding tasks, tracking successful submissions, monitoring failed attempts, and presenting project information through an interactive interface.
 
 ### Features
 - Home Section: Hero banner with call-to-action
@@ -290,7 +290,7 @@ This project demonstrates understanding of:
 ## How to Use
 
 ### View the Live Demo
-Open your browser and visit: https://adarshaachary.github.io/Code-Tester/
+Open your browser and visit: https://adarshaachary.github.io/Code-Tester/web.html
 
 ### Run Locally
 1. Clone the repository: git clone https://github.com/Adarshaachary/Code-Tester.git
@@ -533,7 +533,7 @@ Step 3: Wait for Deployment
 - You will see a green checkmark when complete
 
 Step 4: Access Your Live Site
-- Your site will be available at: https://adarshaachary.github.io/Code-Tester/
+- Your site will be available at: https://adarshaachary.github.io/Code-Tester/web.html
 - Share this link with others to showcase your project
 - The site updates automatically when you push changes
 
