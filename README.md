@@ -4,13 +4,13 @@ A modern, responsive coding platform navigation page built with HTML, CSS, and J
 
 ## Live Demo
 
-View Live Demo: https://Adarshaachary.github.io/SCT_WD_1/
+View Live Demo: https://adarshaachary.github.io/Code-Tester/
 
 ---
 
 ## Project Overview
 
-Code-Tester is a beginner-friendly platform that demonstrates modern frontend development practices. It features a navigation system for managing coding tasks, tracking successful submissions, monitoring failed attempts, and providing information about the platform.
+Code-Tester is a beginner-friendly platform that demonstrates modern frontend development practices. It features a navigation system for managing coding tasks, tracking successful submissions, monitoring failed attempts, and presenting project information in an elegant interface.
 
 ### Features
 - Home Section: Hero banner with call-to-action
@@ -225,7 +225,7 @@ The mobile menu automatically closes:
 ## File Structure
 
 ```
-SCT_WD_1/
+Code-Tester/
 ├── web.html          # HTML structure and content
 ├── web.css           # All styling and animations
 ├── web.js            # JavaScript functionality
@@ -290,11 +290,11 @@ This project demonstrates understanding of:
 ## How to Use
 
 ### View the Live Demo
-Open your browser and visit: https://Adarshaachary.github.io/SCT_WD_1/
+Open your browser and visit: https://adarshaachary.github.io/Code-Tester/
 
 ### Run Locally
-1. Clone the repository: git clone https://github.com/Adarshaachary/SCT_WD_1.git
-2. Navigate to the directory: cd SCT_WD_1
+1. Clone the repository: git clone https://github.com/Adarshaachary/Code-Tester.git
+2. Navigate to the directory: cd Code-Tester
 3. Open web.html in your web browser
 4. No additional setup or build process required
 5. All dependencies are loaded from CDN
@@ -466,7 +466,7 @@ This project is available under the MIT License. You are free to use, modify, an
 
 Project created by: Adarsha Acharya
 GitHub Profile: https://github.com/Adarshaachary
-Repository: https://github.com/Adarshaachary/SCT_WD_1
+Repository: https://github.com/Adarshaachary/Code-Tester
 Email: damodarachar487@gmail.com
 
 ---
@@ -533,7 +533,7 @@ Step 3: Wait for Deployment
 - You will see a green checkmark when complete
 
 Step 4: Access Your Live Site
-- Your site will be available at: https://Adarshaachary.github.io/SCT_WD_1/
+- Your site will be available at: https://adarshaachary.github.io/Code-Tester/
 - Share this link with others to showcase your project
 - The site updates automatically when you push changes
 
